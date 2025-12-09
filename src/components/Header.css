@@ -10,7 +10,7 @@
   justify-content: space-between;
   padding: 10px 100px;
   box-sizing: border-box;
-  
+
 }
 
 .nav-left {
@@ -73,13 +73,18 @@
   list-style: none;
 }
 
+.header-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .login {
   cursor: pointer;
   opacity: 0.9;
 }
 
 .nav-btn {
-  background: #1458f0;
+  background: #2567ff;
   color: white;
   padding: 9px 10px;
   width: 250px;
@@ -108,4 +113,3 @@
   background: #1b1b1b;
   color: white;
 }
-

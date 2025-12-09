@@ -1,5 +1,6 @@
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -12,10 +13,9 @@ export default function Navbar() {
             <select className="member-select">
               <option>For Members</option>
               <option>For Employees</option>
-              <option>For Students</option>
             </select>
           </li>
-          <li>Jobs</li>
+          <li><Link className="header-link" to="/jobs">Jobs</Link></li>
         </ul>
       </div>
 
