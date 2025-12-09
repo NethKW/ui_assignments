@@ -1,0 +1,81 @@
+.member_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 70px;
+    background: #1b1b1b;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.l_section {
+    width: 45%;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.r-section {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.r-section img {
+    width: 450px;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-section1 img {
+    width: 15px;
+}
+
+.button-section1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.button-section1 li {
+    display: inline;
+    padding: 15px;
+}
+
+.member_section h1 {
+    font-size: 60px;
+}
+
+.member_section p {
+    font-size: 18px;
+}
+
+.member-sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+}
