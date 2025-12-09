@@ -5,6 +5,8 @@ import linkedIn from '../assets/linkedin.png';
 import youtube from '../assets/youtube.png';
 import tiktok from '../assets/tik-tok.png';
 import facebook from '../assets/facebook.png';
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -13,30 +15,66 @@ export default function Footer() {
           <div className="logo">Qureos</div>
           <div >
             <ul className="no-bullets">
-              <li>1-on-1 Coaching</li>
-              <li>Live Sessions</li>
-              <li>Blog</li>
-              <li>Careers at Qureos</li>
+              <li><Link className="footer-link" to="/coaching">1-on-1 Coaching</Link></li>
+              <li><Link className="footer-link" to="/live-sessions">Live Sessions</Link></li>
+              <li><Link className="footer-link" to="/blog">Blog</Link></li>
+              <li><Link className="footer-link" to="/careers">Careers at Qureos</Link></li>
             </ul>
           </div>
         </div>
         <div className="rf-section">
           <div >
             <ul className="no-bullets">
-              <li>Jobs</li>
-              <li>For Mentors</li>
-              <li>For Employers</li>
+              <li><Link className="footer-link" to="/jobs">Jobs</Link></li>
+              <li><Link className="footer-link" to="/mentors">For Mentors</Link></li>
+              <li><Link className="footer-link" to="/employers">For Employers</Link></li>
             </ul>
           </div>
           <div >
             <p>Social Media</p>
             <div className="no4">
-              <div className="s-box"><img src={instagram} alt="instagram" /></div>
-              <div className="s-box"><img src={twitter} alt="twitter" /></div>
-              <div className="s-box"><img src={linkedIn} alt="linkedIn" /></div>
-              <div className="s-box"><img src={youtube} alt="youtube" /></div>
-              <div className="s-box"><img src={tiktok} alt="tiktok" /></div>
-              <div className="s-box"><img src={facebook} alt="facebook" /></div>
+              <a
+                className="footer-link-tab"
+                href="https://www.instagram.com/accounts/login/?hl=en"
+                target="_blank"
+              >
+                <div className="s-box"><img src={instagram} alt="instagram" /></div>
+              </a>
+              <a
+                className="footer-link-tab"
+                href="https://x.com/twitt_login?lang=en"
+                target="_blank"
+              >
+                <div className="s-box"><img src={twitter} alt="twitter" /></div>
+              </a>
+              <a
+                className="footer-link-tab"
+                href="https://www.linkedin.com/company/login"
+                target="_blank"
+              >
+                <div className="s-box"><img src={linkedIn} alt="linkedIn" /></div>
+              </a>
+              <a
+                className="footer-link-tab"
+                href="https://www.youtube.com/account?hl=id"
+                target="_blank"
+              >
+                <div className="s-box"><img src={youtube} alt="youtube" /></div>
+              </a>
+              <a
+                className="footer-link-tab"
+                href="https://www.tiktok.com/login"
+                target="_blank"
+              >
+                <div className="s-box"><img src={tiktok} alt="tiktok" /></div>
+              </a>
+              <a
+                className="footer-link-tab"
+                href="https://www.facebook.com/login/"
+                target="_blank"
+              >
+                <div className="s-box"><img src={facebook} alt="facebook" /></div>
+              </a>
             </div>
           </div>
         </div>

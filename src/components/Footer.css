@@ -27,9 +27,24 @@ ul.no-bullets {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    color: #ffffff;
 }
 li{
     padding-bottom: 10px;
+    
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link-tab{
+    display: inline-block;
+    text-decoration: none;
+}
+.footer-link-tab:hover{
+    background-color: #2567ff;
 }
 
 .f-section {
