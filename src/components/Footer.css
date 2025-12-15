@@ -28,10 +28,9 @@ ul.no-bullets {
     padding: 0;
     margin: 0;
     color: #ffffff;
-}
-li{
-    padding-bottom: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .footer-link {

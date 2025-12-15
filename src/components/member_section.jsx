@@ -18,9 +18,9 @@ export default function Member_section() {
           </div>
           <div className="button-section1">
             <ul>
-              <li><img src={check} alt="check" />100,000+ Members</li>
-              <li><img src={check} alt="check" />500+ Mentors</li>
-              <li><img src={check} alt="check" />100+ Employers</li>
+              <li className="button-sec2"><img src={check} alt="check" />100,000+ Members</li>
+              <li className="button-sec2"><img src={check} alt="check" />500+ Mentors</li>
+              <li className="button-sec2"><img src={check} alt="check" />100+ Employers</li>
             </ul>
           </div>
         </div>
