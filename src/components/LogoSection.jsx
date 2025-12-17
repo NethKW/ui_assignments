@@ -2,12 +2,12 @@ import "./logo-section.css";
 import oracle from "../assets/oracle.png"
 import google from "../assets/google.png";
 import microsoft from "../assets/microsoft.png";
-import netflix from "../assets//netflix.png";
+import netflix from "../assets/netflix.png";
 import cisco from "../assets/cisco.png";
 import linkedIn from "../assets/linkedinl.png"
 import uber from "../assets/uber.png";
 import amazon from "../assets/amazon.png";
-export default function Logos() {
+export default function LogoSection() {
   return (
     <div className="logo-section">
       <h2 className="scroll-info">Our mentors are experts at</h2>

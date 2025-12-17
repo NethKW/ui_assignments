@@ -2,7 +2,7 @@ import "../components/member_section.css";
 import member_sectionImg from "../assets/member_section.jpg";
 import check from "../assets/check.png"
 
-export default function Member_section() {
+export default function MemberSection() {
   return (
     <section className="member_section">
       <div className="l_section">
