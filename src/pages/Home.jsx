@@ -1,14 +1,16 @@
 import Navbar from "../components/Header";
 import Footer from "../components/Footer";
-import Member_section from "../components/member_section";
-import Logo_section from "../components/logo-section"
+import MemberSection from "../components/MemberSection";
+import LogoSection from "../components/LogoSection";
+import Benefits from "../components/BenefitsSection"
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Member_section />
-      <Logo_section />
+      <MemberSection />
+      <LogoSection />
+      <Benefits />
       <Footer />
     </>
   );
