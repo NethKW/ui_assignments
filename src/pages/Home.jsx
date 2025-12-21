@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import MemberSection from "../components/MemberSection";
 import LogoSection from "../components/LogoSection";
 import Benefits from "../components/BenefitsSection"
+import PackagesSection from "../components/PackagesSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <MemberSection />
       <LogoSection />
       <Benefits />
+      <PackagesSection />
       <Footer />
     </>
   );
