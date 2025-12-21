@@ -1,0 +1,80 @@
+.package-section {
+    background-color: #f2f2f2;
+    color: #000000;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-left h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.p-left button {
+    width: fit-content;
+    padding: 14px 28px;
+    border-radius: 30px;
+    background-color: #2567ff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.p-right {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.package-basic,
+.package-pro {
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.package-basic {
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.package-pro {
+    background-color: #2567ff;
+    color: #ffffff;
+}
+
+.p-check-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.p-check-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.p-check-list img {
+    width: 18px;
+    height: 18px;
+}
