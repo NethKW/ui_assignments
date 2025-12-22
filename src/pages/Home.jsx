@@ -4,6 +4,7 @@ import MemberSection from "../components/MemberSection";
 import LogoSection from "../components/LogoSection";
 import Benefits from "../components/BenefitsSection"
 import PackagesSection from "../components/PackagesSection";
+import Courses from "../components/Courses";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <LogoSection />
       <Benefits />
       <PackagesSection />
+      <Courses />
       <Footer />
     </>
   );
