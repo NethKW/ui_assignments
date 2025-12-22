@@ -1,4 +1,5 @@
 .logo-section {
+    width: 100%;
     background-color: #0c0c0c;
     padding: 10px 0;
 }
@@ -74,4 +75,19 @@
     margin-top: 1rem;
     font-weight: 500;
     color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .logo-section {
+        width: 100%;
+    }
+
+    .logo-item {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-section h2 {
+        font-size: 22px;
+    }
 }
