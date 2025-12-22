@@ -22,7 +22,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="rf-section">
+        <div className="rf-section1">
           <div >
             <ul className="no-bullets">
               <li><Link className="footer-link" to="/jobs">Jobs</Link></li>
