@@ -1,0 +1,45 @@
+.signup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s-btn {
+    width: fit-content;
+    padding: 12px 25px;
+    background-color: #2567ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup h1 {
+    font-size: 60px;
+}
+
+@media (max-width: 600px) {
+    .signup {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .signup h1 {
+        font-size: 38px;
+        padding: 0px 30px;
+    }
+
+    .s-btn {
+        padding: 10px 20px;
+    }
+}
