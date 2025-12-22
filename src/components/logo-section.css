@@ -90,4 +90,25 @@
     .logo-section h2 {
         font-size: 22px;
     }
+
+    .logo-item img {
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+        opacity: 0.8;
+    }
+
+    .logo-item1 img {
+        width: 70px;
+        height: auto;
+        object-fit: contain;
+        opacity: 0.8;
+    }
+
+    .logo-item2 img {
+        width: 130px;
+        height: auto;
+        object-fit: contain;
+        opacity: 0.8;
+    }
 }
