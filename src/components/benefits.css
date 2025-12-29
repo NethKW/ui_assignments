@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: #ffffff;
   color: #000000;
+  gap: 30px;
   padding: 80px 0px;
 }
 
@@ -16,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45%;
+  max-width: 55%;
   flex-direction: column;
   gap: 20px;
 }
@@ -33,6 +34,14 @@
   padding: 0;
 }
 
+.b-card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
 .b-card {
   background: #a2a2a22e;
   padding: 20px;
@@ -40,7 +49,7 @@
   cursor: pointer;
   transition: 0.2s ease-in-out;
   border: 1px solid transparent;
-  width: 500px;
+  max-width: 80%;
   height: 70px;
   gap: 20px;
   display: flex;
@@ -78,7 +87,67 @@
   font-weight: 600;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 936px) {
+  .benefit-section {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .b-card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .benefit-section h1 {
+    font-size: 42px;
+  }
+
+  .b-left {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .b-right {
+    gap: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-box {
+    width: 300px;
+    height: 130px;
+    /* max-height: 100px; */
+  }
+
+  .img-box img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .b-card {
+    max-width: 350px;
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+@media (max-width:1100px) {
+  .benefit-section h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 700px) {
   .benefit-section {
     width: 100%;
     padding: 30px 0px;
@@ -97,8 +166,9 @@
   }
 
   .b-card {
-    max-width: 300px;
+    max-width: 350px;
     font-size: 14px;
+    padding: 20px;
   }
 
   .card-headline {
@@ -106,7 +176,7 @@
   }
 
   .b-right {
-    gap: 0px;
+    gap: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -115,13 +185,14 @@
   }
 
   .img-box {
-    max-width: 180px;
+    width: 60%;
+    height: 150px;
   }
 
   .img-box img {
-  width: 210px;
-  height: 150px;
-  border-radius: 12px;
-  object-fit: cover;
-}
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
 }
