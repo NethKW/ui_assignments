@@ -8,10 +8,11 @@ export default function BenefitsSection() {
     <div className="benefit-section">
       <div className="b-left">
         <h1>What you get as a <br /> Qureos Member</h1>
+        <div className="b-card-section">
         <div className="b-card">
           <div className="card-headline">Masterclasses</div>
           <div>
-            Learn about Data, Growth Hacking, Digital Marketing, and Product
+            Learn about Data, Growth Hacking, Digital Marketing, and Product <br/>
             Strategies from the best in business.
           </div>
         </div>
@@ -26,6 +27,7 @@ export default function BenefitsSection() {
           <div>
             Access recorded masterclasses anytime at your convenience.
           </div>
+        </div>
         </div>
       </div>
       <div className="b-right">
