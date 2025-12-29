@@ -52,6 +52,7 @@
 
 .button-section1 img {
     width: 20px;
+    height: 20px;
 }
 
 .button-section1 ul {
@@ -84,25 +85,69 @@
     padding: 20px 0px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
     .member_section {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 30px 0px;
+        padding: 10px 0px;
+        gap: 20px;
     }
-    .l_section{
+
+    .l_section {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .r-section {
         width: 80%;
     }
 
-    .r-section{
+    .r-section img {
+        max-width: 450px;
+    }
+
+    .member_section h1 {
+        font-size: 52px;
+    }
+
+    .member_section p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 936px) {
+    .member_section {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+        gap: 20px;
+    }
+
+    .l_section {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .r-section {
+        width: 80%;
     }
 
     .r-section img {
-        max-width: 300px;
+        max-width: 400px;
         border-radius: 10px;
     }
 
@@ -110,6 +155,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         gap: 20px;
     }
 
@@ -131,18 +177,97 @@
 
     }
 
-    .btn{
+    .btn {
+        font-size: 15px;
+    }
+
+    .member_section h1 {
+        font-size: 42px;
+    }
+
+    .member_section p {
+        font-size: 16px;
+    }
+
+    .member-sub-section {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .member_section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+
+    .l_section {
+        width: 80%;
+    }
+
+    .r-section {
+        width: 100%;
+    }
+
+    .r-section img {
+        max-width: 300px;
+        border-radius: 10px;
+    }
+
+    .button-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .button-section1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .button-section1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .btn {
         font-size: 14px;
     }
 
-    .member_section h1{
+    .member_section h1 {
         font-size: 38px;
     }
 
-    .member_section p{
+    .member_section p {
         font-size: 15px;
     }
-    .member-sub-section{
+
+    .member-sub-section {
         gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .button-section1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+
     }
 }
