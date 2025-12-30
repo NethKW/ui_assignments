@@ -30,6 +30,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 
 }
 
@@ -210,6 +211,7 @@
 
     .r-section {
         width: 100%;
+        padding: 0;
     }
 
     .r-section img {

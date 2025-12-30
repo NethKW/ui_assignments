@@ -30,7 +30,7 @@ export default function Footer() {
               <li><Link className="footer-link" to="/employers">For Employers</Link></li>
             </ul>
           </div>
-          <div >
+          <div className="social">
             <p>Social Media</p>
             <div className="no4">
               <a
